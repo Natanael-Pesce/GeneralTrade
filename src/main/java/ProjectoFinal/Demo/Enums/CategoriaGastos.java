@@ -1,4 +1,4 @@
-package ProjectoFinal.Demo.Enums;
+package ProjectoFinal.Demo.enums;
 
 public enum CategoriaGastos {
     ALQUILER,

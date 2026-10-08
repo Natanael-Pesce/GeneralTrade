@@ -1,4 +1,4 @@
-package ProjectoFinal.Demo.Models;
+package ProjectoFinal.Demo.models;
 
 
 import java.sql.Date;

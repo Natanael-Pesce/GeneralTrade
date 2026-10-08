@@ -1,4 +1,4 @@
-package ProjectoFinal.Demo.Models;
+package ProjectoFinal.Demo.models;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
