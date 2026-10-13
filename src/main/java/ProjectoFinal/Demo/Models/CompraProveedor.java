@@ -1,6 +1,7 @@
 package ProjectoFinal.Demo.models;
 
 import java.sql.Date;
+import java.time.LocalDate;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -29,17 +30,17 @@ public class CompraProveedor {
     private int idCompraProveedor;
 
     @Column (nullable = false)
-    private int idProveedor;
+    private Proveedor idProveedor;
 
     @Column (nullable = false)
     private int numeroRemito;
 
     @Column (nullable = false)
-    private Date fechaCompra;
+    private LocalDate fechaCompra;
 
     @Column (nullable = false)
     private int montoTotalCompra;
 
-    @Column (nullable = false)
+    @Column 
     private String observaciones;
 }

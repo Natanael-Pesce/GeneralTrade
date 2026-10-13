@@ -13,7 +13,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @Entity 
-@Table(name = "Producto")
+@Table(name = "DetalleVenta")
 @Builder
 @Data
 @AllArgsConstructor 

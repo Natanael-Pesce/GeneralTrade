@@ -1,7 +1,6 @@
 package ProjectoFinal.Demo.models;
 
-
-import java.sql.Date;
+import java.time.LocalDateTime;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -16,7 +15,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @Entity 
-@Table(name = "Producto")
+@Table(name = "Gastos")
 @Builder
 @Data
 @AllArgsConstructor 
@@ -29,7 +28,7 @@ public class Gastos {
     private int idGastos;
 
     @Column (nullable = false)
-    private Date fechaHora;
+    private LocalDateTime fechaHora;
 
     @Column (nullable = false)
     private String tipoMovimiento;

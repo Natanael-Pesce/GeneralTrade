@@ -13,7 +13,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @Entity 
-@Table(name = "Producto")
+@Table(name = "Proveedor")
 @Builder
 @Data
 @AllArgsConstructor 
@@ -29,7 +29,7 @@ public class Proveedor {
     private String nombreProveedor;
 
     @Column (nullable = false)
-    private int cuitProveedor;
+    private Long cuitProveedor;
 
     @Column (nullable = false)
     private String telefonoProveedor;
